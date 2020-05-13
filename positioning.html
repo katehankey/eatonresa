@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>kate's positioning</title>
+    <!-- the following links reset and unify website settings -->
+    <link href="https://unpkg.com/@csstools/normalize.css" rel="stylesheet" />
+    <link href="https://unpkg.com/sanitize.css" rel="stylesheet" />
+    <link href="https://unpkg.com/sanitize.css/typography.css"
+        rel="stylesheet" />
+
+    <style>
+        body {
+            color: white;
+            background-color:#9e7f78;
+        }
+
+        header {
+            position: static;
+            top: 0;
+            background: #D8C8C0;
+            color: #9e7f78;
+            padding: 1rem;
+            text-align: center;
+        }
+
+        section {
+            background: #D8C8C0;
+            padding: 5rem;
+            margin: 2rem;
+            width: 100%;
+            margin-left: auto;
+            margin-right: auto;
+             margin-bottom: 1rem;
+        }
+
+        div {
+            background:#9e7f78;
+            padding: 2rem;
+            width: 90%;
+            border: 5px solid #a1939355;
+             margin-bottom: 3rem;
+            text-align: center;
+
+            
+        }
+
+        .static {}
+
+        .relative {}
+
+        .absolute {}
+
+        .fixed {}
+
+        .left {}
+
+        .right {}
+    </style>
+</head>
+
+<body>
+
+    <header>
+        <h1>Kate's Positioning Practice</h1>
+        <p>yay!</p>
+    </header>
+
+    <main>
+        <!-- positioning options -->
+
+        <section>
+            <div class="static">
+                <h1>My First Box</h1>
+            </div>
+
+            <div class="relative">
+               <h1>My Second Box</h1>
+            </div>
+
+            <div class="absolute">
+                <h1>This is kind of cool</h1>
+            </div>
+
+            <div class="fixed">
+                <h1>Web Design Stuff</h1>
+            </div>
+        </section>
+
+        <!-- floating options -->
+        <section>
+            <div class="center">
+                <h1>Very very cool</h1>
+            </div>
+
+              
+    </main>
+
+</body>
+
+</html>
